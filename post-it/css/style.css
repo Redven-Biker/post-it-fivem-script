@@ -1,0 +1,110 @@
+@import url(https://fonts.googleapis.com/css?family=Give+You+Glory|The+Girl+Next+Door|Gloria+Hallelujah|Indie+Flower);
+
+body {
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+.background {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url(../img/background.jpg);
+}
+.sticky {
+  -webkit-box-shadow: #DDD 0px 1px 2px;
+  position: relative;
+  background-color: #F4F39E;
+  border-color: #DEE184;
+  color: #47576B;
+  text-align: center;
+  margin: 2.5em 0px;
+  padding: 1.5em 1em;
+  -webkit-box-shadow: 0px 1px 3px rgba(0,0,0,0.25);
+  -moz-box-shadow: 0px 1px 3px rgba(0,0,0,0.25);
+  box-shadow: 0px 1px 3px rgba(0,0,0,0.25);
+  width: 300px;
+  font-family: 'Indie Flower', cursive;
+  font-family: 'Give You Glory', cursive;
+  font-family: 'The Girl Next Door', cursive;
+  font-family: 'Gloria Hallelujah', cursive;
+}
+.post-it {
+  display:grid;
+  padding: 5%;
+}
+.post-it-2 {
+  padding: 5%;
+}
+.taped {
+  text-align: center;
+  margin: 15px;
+}
+.sticky.taped:after {
+  display: block;
+  content: "";
+  position: absolute; 
+  width: 110px;
+  height: 30px;
+  top: -21px;
+  left: 30%;    
+  border: 1px solid #fff;
+  background: rgba(254, 254, 254, .6);
+  -webkit-box-shadow: 0px 0 3px rgba(0,0,0,0.1);
+  -moz-box-shadow: 0px 0 3px rgba(0,0,0,0.1);
+  box-shadow: 0px 0 3px rgba(0,0,0,0.1);  
+}
+
+.grid-container {
+  display: grid;  
+  grid-template-columns: 1fr 1fr 1fr 1fr;  
+}
+
+input {
+  background: transparent;
+  border: transparent;
+  font-family: 'Indie Flower', cursive;
+  font-family: 'Give You Glory', cursive;
+  font-family: 'The Girl Next Door', cursive;
+  font-family: 'Gloria Hallelujah', cursive;
+  text-align: center;
+  border-bottom: 1px solid #47576B;
+  width: 70%;
+  margin-bottom: 2%;
+  outline: none;
+}
+
+textarea {
+  background: transparent;
+  border: transparent;
+  font-family: 'Indie Flower', cursive;
+  font-family: 'Give You Glory', cursive;
+  font-family: 'The Girl Next Door', cursive;
+  font-family: 'Gloria Hallelujah', cursive;
+  text-align: center;
+  border-bottom: 1px solid #47576B;
+  width: 70%;
+  margin-bottom: 2%;
+  resize: none;
+  outline: none;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+ }
+ ::-webkit-scrollbar-thumb {
+  background: linear-gradient(13deg, #ffbf75 14%,#ffcb8f 64%);
+  border-radius: 10px;
+ }
+ ::-webkit-scrollbar-thumb:hover{
+  background: linear-gradient(13deg, #c79459 14%,#c79459 64%);
+ }
+ ::-webkit-scrollbar-track{
+  background: #ffd9ae;
+  border-radius: 10px;
+  box-shadow: inset 7px 10px 12px #ffd9ae;
+ }
